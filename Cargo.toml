@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+	"structures",
+	"page_allocator",
+	"scheduling",
+	"basic_commands"
+]

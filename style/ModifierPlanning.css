@@ -1,0 +1,92 @@
+#leftBarre li{
+    margin-top: 1vw;
+}
+
+body #content{
+    margin-left: 12%;
+    width: 80%;
+    font-size: 1.5vw;
+}
+.saisieAssiste{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    width: 30%;
+}
+
+body input{
+    font-size: 1.5vw;
+    padding: 0;
+    border-width:0.01vw ;
+}
+
+.saisieAssiste button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.saisieAssiste img{
+    width: 1vw;
+}
+.test{
+    display: grid;
+    grid-template-columns: 15% 15% 24% 15% 15% 15%; 
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.test .number{
+    width: 3vw;
+    height: 1.1vw;
+    font-size: 1vw;
+}
+.test select{
+    width: 49%;
+    height: 1.5vw;
+    justify-content: center;
+    font-size: 1vw;
+}
+
+.buttext{
+    font-size: 1vw;
+    height: 1.6vw;
+    width: 10vw;    
+}
+.test p{
+    font-size: 1vw;
+}
+#content ul{
+    font-size: 1.2vw;
+    width: 50%;
+    grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+    margin: 0 ;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+
+}
+#content li{
+    border: 0.01vw solid black;
+}
+#content a{
+    text-decoration: none;
+    color: black;
+}
+#para, #content ul{
+    margin: 0px;
+}
+#para p{
+    border: 0.01vw solid black;
+    width: 100%;
+    display: none;
+    height: 20vw;
+    margin: 0;
+}
+#para p:target{
+    display: block;
+}

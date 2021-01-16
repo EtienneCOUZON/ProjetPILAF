@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/CreerClient.css">
+    
+    <title>Créer client</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="image/login.png" alt="login"></li><li><a href="EnregistrerVente.html">Vente</a></li><li><a href="CreerAchat.html">Achat</a></li><li><a href="MouvementDeStock.html">Entrepôt</a> </li><li><a href="CreerArticle.html">Produit</a></li><li><a href="CreerFournisseur.html">Fournisseur</a></li><li><a href="ConsulterPlanning.html#horlun">Personnel</a></li><li><a href="CreerClient.html">Client</a></li><li><a href="ConsulterVirements.html">Comptabilité</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="leftBarre">
+        <ul>
+            <li><a href="CreerClient.html">Créer Client</a></li><br><li><a href="CarteFidelite.html">Carte de fidélité</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        
+        <h1>Créer client</h1>
+        
+        <form>
+            <div id="left">
+                
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" value="Dupont" required><br>
+                <label for="Prénom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" value="Jean" required><br>
+                <label for="naissance">Date de naissance :</label><br>
+                <input type="Date" id="date" name ="date"  value="1979-10-15" max="2020-06-3" ><br>
+                <label for="email">Adresse email :</label>
+                <input type="email" id="email" name="email" value="jeandupont@gmail.fr"><br>
+                <label for="numero">Télephone :</label>
+                <input type="tel" id="numero" name="numero" value="0601020304"><br><br><br>
+                <button type="submit">Enregistrer</button>
+            </div>  
+            
+            <div id="right">
+                <div id="contentcreer">
+                    <p class="cont">Civilité :<br> Mr.<input type="radio" name="drone" checked> Mme.<input type="radio" name="drone"></p>
+                </div>
+                <label for="adresse">Adresse postale :</label>
+                <input type="text" id="adresse" name="adresse"value="7 rue des cerises">
+                <label for="cp">Code postal :</label>
+                <input type="tel" id="cp" name="cp" value="87000" >
+                <label for="ville">Ville :</label>
+                <input type="text" id="ville" name="ville" value="Limoges" ><br>
+                <label for="csp">CSP :</label>
+                <select name="Catégorie socio-professionnelle">
+                    <option value="" selected="selected">--Catégorie socio-professionnelle--</option>
+                    <option>Agriculteurs exploitants </option>
+                    <option>Artisans, commerçants et chefs d’entreprise</option>
+                    <option>Cadres et professions intellectuelles supérieures </option>
+                    <option>Professions intermédiaires</option>
+                    <option>Employés </option>
+                    <option>Ouvriers</option>
+                    <option>Retraités </option>
+                    <option>Autres personnes sans activité professionnelle</option>
+                </select><br><br><br><br>
+                <a href="CarteFidelite.html"><button type="submit">Enregistrer et fidéliser</button></a>
+            </div> 
+        </form>    
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,102 @@
+html{
+   scroll-behavior: smooth; 
+}
+body #content{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 35vw;
+    margin-left: 12%;
+    width: 85%;
+}
+form{
+    font-size: 1.2vw;
+}
+form button{
+    margin-bottom: 1vw;
+}
+button{
+    font-size: 1.3vw;
+    border-width: 0.01vw;
+    padding: 0.3vw;
+    -moz-appearance: none;
+}
+input{
+    font-size: 1.5vw;
+    padding: 0;
+    -moz-appearance: none;
+    border-width: 0.01vw;
+    text-indent: 0.5vw;
+}
+select{
+    -moz-appearance: none;
+    padding: 0.3vw;
+}
+#content form input{
+    width: 90%;
+    margin-bottom: 1vw;
+}
+#content form select{
+    margin: 0 0 1vw;
+    width: 90%;
+    font-size: 1.3vw;
+    height: 2.8vw;
+}
+#tableau{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;    
+    grid-template-rows: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%  8%;
+    border: 0px;
+    border-top: 0.01vw solid black;
+    margin-top: 2vw;
+    font-size: 1.2vw;
+}
+#tableau .ligne,#tableau .tabhead{
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+    height: 100%;
+    border-right:0.01vw black solid;
+}
+#tableau .ligne .div{
+    height: 100%;
+    width: 100%;
+
+}
+#tableau p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.01vw solid black;
+    border-right:0;
+    border-top:0;
+    height: 100%;
+    width: 100%;
+}
+
+#tableau input {
+    width: 100%;
+    border-right:0;
+    height: 100%;
+}
+#tableau .tabhead{
+    font-weight: bold;
+}
+#tableau .fdp{
+    display:grid;
+    grid-template-columns: 70% 15% 15%;
+    width: calc(100% - 0.10vw);
+    border-right:0.01vw solid black;
+}
+#tableau p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.scan{
+    width: 90%;
+    margin-bottom: 1vw;
+}
+#paienr{
+    width: 90%;
+    display:flex ;
+    justify-content: space-between;
+}

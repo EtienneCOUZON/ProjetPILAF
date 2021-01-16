@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/ConsulterPlanning.css">
+    <title>Planning</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="image/login.png" alt="login"></li><li><a href="EnregistrerVente.html">Vente</a></li><li><a href="CreerAchat.html">Achat</a></li><li><a href="MouvementDeStock.html">Entrepôt</a> </li><li><a href="CreerArticle.html">Produit</a></li><li><a href="CreerFournisseur.html">Fournisseur</a></li><li><a href="ConsulterPlanning.html#horlun">Personnel</a></li><li><a href="CreerClient.html">Client</a></li><li><a href="ConsulterVirements.html">Comptabilité</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="leftBarre">
+        <ul>
+            <li><a href="ConsulterPlanning.html#horlun">Consulter planning</a></li><li><a href="ModifierPlanning.html">Modifier planning</a></li><li><a href="ConsulterInformationsEmploye.html">Consulter informations employé</a></li><li><a href="ModifierInformationsEmploye.html">Modifier informations employé</a></li>
+            
+        </ul>
+    </div>
+    <div id="content">
+        <h1>Planning</h1>
+        <div class="saisieAssiste">
+            <input type="text" role="combobox" aria-expanded="false" value="BeteauHer01" placeholder="Selectionnez employé" required>
+            <button  disabled="disabled"><img src="image/fleche.png" alt="flèche"></button>
+        </div>
+        <p id="sem">Semaine n°<input type="number" name="Semaine" min="1" max="53" value="4"></p>
+        <ul>
+            <li><a href="#horlun">Lundi</a></li><li><a href="#hormar">Mardi</a></li><li><a href="#hormer">Mercredi</a> </li>
+            <li><a href="#horjeu">Jeudi</a></li><li><a href="#horven">Vendredi</a></li><li><a href="#horsam">Samedi</a></li>
+            <li><a href="#hordi">Dimanche</a></li>
+        </ul>
+        <div id="para">
+            <p id="horlun">Lundi :<br>8h-12h hote de caisse (caisse n°2)  <br>14h-16h réunion</p>
+            <p id="hormar">Mardi :<br>8h-10h50 hote de caisse (caisse n°2)  <br>13h-17h hote de caisse (caisse n°3)</p>
+            <p id="hormer">Mercredi :<br>8h-12h hote de caisse (caisse n°1)  <br>14h-16h hote de caisse(caisse n°2)</p>
+            <p id="horjeu">Jeudi :<br>8h-12h hote de caisse (caisse n°2)  <br>14h-16h hote de caisse (caisse n°1)</p>
+            <p id="horven">Vendredi :<br>8h-12h hote de caisse (caisse n°2)  <br>14h-16h hote de caisse</p>
+            <p id="horsam">Samedi :<br>8h-12h hote de caisse (caisse n°2)  <br>14h-16h hote de caisse</p>
+            <p id="hordi">Dimanche :<br>8h-12h hote de caisse (caisse n°2)  <br>14h-16h hote de caisse</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+#leftBarre li{
+	margin-top: 1vw;
+}
+body #content{
+    margin-left: 12%;
+    width: 85%;
+}
+#para p{
+    border: 0.1vw solid black;
+    width: 100%;
+    display: none;
+    height: 20vw;
+    margin: 0;
+}
+#para p:target{
+    display: block;
+}
+#content li{
+    border: 0.1vw solid black;
+}
+#content a{
+    text-decoration: none;
+    color: black;
+}
+#para, #content ul{
+    margin: 0px;
+}
+#content ul{
+    font-size: 1.2vw;
+    width: 50%;
+    grid-template-columns: 50% 50%;
+    margin: 0 ;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+
+}
+#fidelité img{
+	width: 40%;
+	margin-left: 4vw;
+	margin-top: 1vw;
+}
+#CA img{
+	width: 26%;
+	margin-left: 5vw;
+	margin-top: 1vw;
+}

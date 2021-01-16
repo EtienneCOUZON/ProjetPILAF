@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/ConsulterVirements.css">
+    <title>Consulter Virements</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="image/login.png" alt="login"></li><li><a href="EnregistrerVente.html">Vente</a></li><li><a href="CreerAchat.html">Achat</a></li><li><a href="MouvementDeStock.html">Entrepôt</a> </li><li><a href="CreerArticle.html">Produit</a></li><li><a href="CreerFournisseur.html">Fournisseur</a></li><li><a href="ConsulterPlanning.html#horlun">Personnel</a></li><li><a href="CreerClient.html">Client</a></li><li><a href="ConsulterVirements.html">Comptabilité</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="leftBarre">
+        <ul>
+            <li><a href="ConsulterVirements.html">Consulter Virements</a></li><br><li><a href="ConsulterFactures.html">Consulter Factures</a></li><br><li><a href="VirementAuto.html">Payer une Facture par Virement Automatique</a> </li>
+        </ul>
+    </div>    
+    <div id="content">
+        
+        <h1>Consulter Virements</h1>
+        <h1>Historique des virements</h1>
+        <form>
+            <div id="left">
+                <select name="Trier par virements" required>
+                    <option value="" selected="selected">--Trier par date--</option>
+                    <option value="Facture1">--Trier par numéro de compte--</option>
+                    <option value="Facture2">--Trier par somme de virements--</option>
+                </select><br><br>
+            </div>
+        </form>
+        
+        <div id="tabvirements">
+            <table>
+                <caption></caption>
+                <thead>
+                    <th>Intitulé de l'opération</th>
+                    <th>Dernière opération</th>
+                </thead>
+                <tr>
+                    <td> 
+                        <h2>ENTREPRISE BIONATURE</h2>
+                        <p>N° compte: 06			-MR CLIENT</p>
+                    </td>
+                    <td> 
+                        <h4>Virement de 1500€</h4>
+                        <h4>Le 18/04/2020</h4>
+                    </td>
+                    <td><a href="ConsulterFournisseur.html"><button type="button">Consulter fournisseur</button></a></td>
+                </tr>
+                <tr>
+                    <td> 
+                        <h2>ENTREPRISE PROBABIO</h2>
+                        <p>N° compte: 08			-MR CLIENT</p>
+                    </td>
+                    <td> 
+                        <h4>Virement de 7500€</h4>
+                        <h4>Le 14/03/2020</h4>
+                    </td>
+                    <td>
+                        <a href="ConsulterFournisseur.html"><button type="button">Consulter fournisseur</button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <h2>LA VIE CLAIRE</h2>
+                        <p>N° compte: 10			-MR CLIENT</p>
+                    </td>
+                    <td> 
+                        <h4>Virement de 500€</h4>
+                        <h4>Le 03/02/2020</h4>
+                    </td>
+                    <td>
+                        <a href="ConsulterFournisseur.html"><button type="button">Modifier fournisseur</button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <h2>NATURALIA</h2>
+                        <p>N° compte: 11			-MR CLIENT</p>
+                    </td>
+                    <td> 
+                        <h4>Virement de 1020€</h4>
+                        <h4>Le 28/12/2019</h4>
+                    </td>
+                    <td><a href="ConsulterFournisseur.html"><button type="button">Consulter fournisseur</button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <h2>NATURDIS</h2>
+                        <p>N° compte: 15			-MR CLIENT</p>
+                    </td>
+                    <td> 
+                        <h4>Virement de 120€</h4>
+                        <h4>Le 02/12/2019</h4>
+                        
+                    </td>
+                    <td>
+                        <a href="ConsulterFournisseur.html"><button type="button">Consulter fournisseur</button></a>
+                    </td> 	                               
+                </tr>
+                <tr>
+                    <td> 
+                        <h2>SATORIZ</h2>
+                        <p>N° compte: 18			-MR CLIENT</p>
+                    </td>
+                    <td> 
+                        <h4>Virement de 240€</h4>
+                        <h4>Le 21/11/2019</h4>
+                    </td>
+                    <td><a href="ConsulterFournisseur.html"></a><button type="button">Consulter fournisseur</button></a></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+    </html>

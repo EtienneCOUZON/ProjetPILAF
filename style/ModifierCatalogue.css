@@ -1,0 +1,124 @@
+body #content{
+    margin-left: 12%;
+    width: 85%;
+    font-size: 0.9vw;
+}
+
+a{
+    color: #0000EE;
+}
+a:focus{
+    outline: 0;
+    outline: none;
+}
+#content ul{
+    font-size: 1.2vw;
+    width: 30%;
+    grid-template-columns: 50% 50%;
+    margin: 0 ;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+
+}
+#content li{
+    border:0.01vw solid black;
+}
+#content a{
+    text-decoration: none;
+    color: black;
+}
+#contenu, #content ul{
+    margin: 0px;
+}
+#rechercheFournisseur{
+    border:0.01vw solid black;
+    width: 100%;
+    display: none;
+    height: 25vw;
+    margin: 0;
+}
+#rechercheProduit{
+    border:0.01vw solid black;
+    width: 100%;
+    display: none;
+    height: 25vw;
+    margin: 0;
+}
+#rechercheFournisseur:target, #rechercheProduit:target{
+    display: block;
+}
+#search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#search label{
+    text-align: right;
+}
+.saisieAssiste{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    width: 20%;
+    font-size: 0.9vw;
+}
+.saisieAssiste img{
+    width: 0.5vw;
+    padding: 0;
+    border-width: 0.01vw;
+}
+.saisieAssiste button{
+    padding: 0;
+}
+input{
+    font-size: 0.9vw;
+    padding: 0;
+    border-width: 0.01vw;
+}
+#contenu, #content ul{
+    margin: 0;
+}
+#recherche{
+    margin: 1vw;
+    margin-right: 0;
+    border-style: solid;
+    padding-top: 1vw;
+}
+#reference{
+    width: 17%;
+}
+#categorie{
+    width: 17%;
+}
+#categorie select{
+    width: 60%;
+    font-size: 1vw;
+    border-width: 0.01vw;
+    padding: 0;
+}
+#reference input{
+    width: 60%;
+}
+#banane{
+    width: 20%;
+}
+#BN{
+    width: 40%;
+}
+.exemple{
+    border-style: solid;
+    margin: 3vw;
+    display: inline-block;
+    padding: 1vw;
+    width: 20%;
+}
+button{
+    padding: 0.3vw;
+    border-width: 0.01vw;
+    font-size: 1vw;
+}
+hr{
+    border-width: 0.05vw;
+}

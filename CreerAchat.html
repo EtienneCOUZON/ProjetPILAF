@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/Achat.css">
+    <title>Créer commande Fournisseur</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="image/login.png" alt="login"></li><li><a href="EnregistrerVente.html">Vente</a></li><li><a href="CreerAchat.html">Achat</a></li><li><a href="MouvementDeStock.html">Entrepôt</a> </li><li><a href="CreerArticle.html">Produit</a></li><li><a href="CreerFournisseur.html">Fournisseur</a></li><li><a href="ConsulterPlanning.html#horlun">Personnel</a></li><li><a href="CreerClient.html">Client</a></li><li><a href="ConsulterVirements.html">Comptabilité</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <div id="leftBarre">
+        <ul>
+            <li><a href="CreerAchat.html">Créer commande Fournisseur</a></li><br><li><a href="ModifierAchat.html">Modifier une commande</a></li><br><li><a href="ConsulterAchat.html">Consulter une commande</a> </li>
+        </ul>
+    </div>
+    
+    <div id="content">
+        <form>
+            <h1>Créer commande fournisseur</h1>
+            <label>N° de la commande : </label>
+            <input type="text" role="combobox" aria-expanded="false" placeholder="N° de la commande" value="ZXC847" disabled="disabled" required>
+            <label>Fourniseur : </label>
+            <input type="text" role="combobox" aria-expanded="false" placeholder="Fourniseur" value="BioNature" required>
+            
+            <label>Adresse de livraison : </label>
+            <input type="text" role="combobox" aria-expanded="false" placeholder="Adresse de livraison" value="Magasin" required>
+            
+            <label>Adresse de Facturation : </label>
+            <input type="text" role="combobox" aria-expanded="false" placeholder="Adresse de Facturation" value="Pilaf BIO" required>
+            <label>Mode de paiement : </label>
+            <select name="Mode de Paiement" required>
+                <option value="">--Mode de Paiement--</option>
+                <option value="Mode de Paiement1" selected="selected">Comptant</option>
+                <option value="Mode de Paiement2">Cheque</option>
+                <option value="Mode de Paiement2">Espece</option>
+            </select>
+            
+            
+            <button type="submit">Valider</button>
+            <button>Exporter commande détaillé en pdf</button>
+        </form>
+        
+        <div id=tableau>
+            <div class = "tabhead">
+                <p>Nom</p>
+                <p>Quantité</p>
+                <p>Prix</p>
+                
+            </div>
+            
+            <div class = "ligne">
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Référence produit" value="Sachet Bananes BANANA&CO 600g" required>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" value="1000" placeholder="0">
+                <p class="prix">500,34</p>
+            </div>
+            <div class = "ligne">
+                
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">0</p>
+            </div>
+            <div class = "ligne">
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">0</p>
+            </div>
+            <div class = "ligne">
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">0</p>
+            </div>
+            <div class = "ligne">
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">0</p>
+            </div>
+            <div class = "ligne">
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">0</p>
+            </div>
+            <div class = "ligne">
+                
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">0</p>
+            </div>
+            <div class = "ligne">
+                
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">0</p>
+            </div>
+            
+            <div class="fdp">
+                <a href="#">Ajouter une ligne</a>
+                <p>Frais de port</p>
+                <p>120,00</p>
+            </div>
+            <div class="fdp">
+                <a></a>
+                <p>TVA</p>
+                <p>31,017</p>
+            </div>
+            <div class="fdp">
+                <a></a>
+                <p>Total</p>
+                <p>651,357</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/ModifierPlanning.css">
+    <title>Planning</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="image/login.png" alt="login"></li><li><a href="EnregistrerVente.html">Vente</a></li><li><a href="CreerAchat.html">Achat</a></li><li><a href="MouvementDeStock.html">Entrepôt</a> </li><li><a href="CreerArticle.html">Produit</a></li><li><a href="CreerFournisseur.html">Fournisseur</a></li><li><a href="ConsulterPlanning.html#horlun">Personnel</a></li><li><a href="CreerClient.html">Client</a></li><li><a href="ConsulterVirements.html">Comptabilité</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="leftBarre">
+        <ul>
+            <li><a href="ConsulterPlanning.html#horlun">Consulter planning</a></li><li><a href="ModifierPlanning.html">Modifier planning</a></li><li><a href="ConsulterInformationsEmploye.html">Consulter informations employé</a></li><li><a href="ModifierInformationsEmploye.html">Modifier informations employé</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="content">
+        
+        <h1>Planning</h1>
+        <div class="saisieAssiste">
+            <input type="text" role="combobox" aria-expanded="false" value="GauthierRap01" placeholder="Selectionnez employé" required>
+            <button  disabled="disabled"><img src="image/fleche.png" alt="flèche"></button>
+        </div>
+        <br>
+        <div class="test">
+            <p>Semaine n°<input class="number" type="number" name="Semaine" min="1" max="53"></p>
+            <select name="Jour" required>
+                <option value="">--Jour--</option>
+                <option value="Jour1" selected="selected">Lundi</option>
+                <option value="Jour2">Mardi</option>
+                <option value="Jour3">Mercredi</option>
+                <option value="Jour4">Jeudi</option>
+                <option value="Jour5">Vendredi</option>
+                <option value="Jour6">Samedi</option>
+                <option value="Jour7">Dimanche</option>
+            </select>
+            <p>Horaire de début : <input class="number" type="number" name="Heure" value="15" min="0" max="23"> : <input class="number" value="30" type="number" name="Minute" min="0" max="59"></p>
+            <p>Durée : <input class="number" type="number" name="Heure" value="2" min="0" max="23"> : <input class="number" type="number" value="0" name="Minute" min="0" max="59"></p>
+            <input type="text" class="buttext" value="Réunion"  placeholder="Intitulé" required>
+            <input type="button" class="buttext" name="ajouplan" value="Ajouter au planning"> 
+        </div>
+        <ul>
+            <li><a href="#horlun">Lundi</a></li><li><a href="#hormar">Mardi</a></li><li><a href="#hormer">Mercredi</a> </li>
+            <li><a href="#horjeu">Jeudi</a></li><li><a href="#horven">Vendredi</a></li><li><a href="#horsam">Samedi</a></li>
+            <li><a href="#hordi">Dimanche</a></li>
+        </ul>
+        <div id="para">
+            <p id="horlun">Lundi<br>15h30-17h30 Réunion</p>
+            <p id="hormar">Mardi</p>
+            <p id="hormer">Mercredi</p>
+            <p id="horjeu">Jeudi</p>
+            <p id="horven">Vendredi</p>
+            <p id="horsam">Samedi</p>
+            <p id="hordi">Dimanche</p>
+        </div>
+    </div>
+</body>
+</html>

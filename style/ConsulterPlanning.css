@@ -1,0 +1,76 @@
+#leftBarre li{
+    margin-top: 1vw;
+}
+body #content{
+    margin-left: 12%;
+    width: 80%;
+    font-size: 1.5vw;
+}
+.saisieAssiste{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    width: 30%;
+    margin-bottom: 2vw;
+
+}
+#sem{
+    margin-bottom: 2vw;
+}
+#sem input{
+    width: 3vw;
+}
+body input{
+    font-size: 1.5vw;
+    padding: 0;
+    border-width:0.01vw ;
+}
+
+.saisieAssiste button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-width:0.01vw ;
+}
+
+.saisieAssiste img{
+    width: 1vw;
+}
+h1{
+    margin-bottom: 2vw;
+}
+#content ul{
+    font-size: 1.2vw;
+    width: 50%;
+    grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+    margin: 0 ;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+
+}
+#content li{
+    border: 0.1vw solid black;
+}
+#content a{
+    text-decoration: none;
+    color: black;
+}
+#para, #content ul{
+    margin: 0px;
+}
+#para p{
+    border: 0.1vw solid black;
+    width: 100%;
+    display: none;
+    height: 20vw;
+    margin: 0;
+}
+#para p:target{
+    display: block;
+}
+
+

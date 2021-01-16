@@ -1,0 +1,64 @@
+#content{
+    margin-left: 12%;
+}
+input{
+    font-size: 1.5vw;
+    padding: 0;
+    border-width: 0.01vw;
+  }
+#search{
+    display: flex;
+    align-content: center;
+    padding: 1%;
+    margin-left:20vw;
+    font-size: 1.5vw;
+}
+#info{
+    margin-left:10% ;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+}
+#info img{
+    width: 80%;
+}
+#nom{
+    font-weight: bold;
+    font-size: 2vw;
+}
+#button{
+    margin-top: 1vw;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 40%;
+    margin-left: 30%;
+}
+button{
+    font-size: 1.5vw;
+    padding: 0.3vw;
+    border-width:0.01vw ;
+}
+
+p{
+    font-size: 1vw;  
+}
+.saisieAssiste{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    margin-bottom: 2vw;
+}
+.saisieAssiste button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.saisieAssiste input{
+    font-size: 1.5vw;
+}
+.saisieAssiste img{
+    width: 1vw;
+}

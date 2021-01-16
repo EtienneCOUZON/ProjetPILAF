@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/CreerArticle.css">
+    <title>Modifier article</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="image/login.png" alt="login"></li><li><a href="EnregistrerVente.html">Vente</a></li><li><a href="CreerAchat.html">Achat</a></li><li><a href="MouvementDeStock.html">Entrepôt</a> </li><li><a href="CreerArticle.html">Produit</a></li><li><a href="CreerFournisseur.html">Fournisseur</a></li><li><a href="ConsulterPlanning.html#horlun">Personnel</a></li><li><a href="CreerClient.html">Client</a></li><li><a href="ConsulterVirements.html">Comptabilité</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="leftBarre">
+        <ul>
+            <li><a>ARTICLE</a></li><br><li><a href="CreerArticle.html">Créer article</a></li><br><li><a href="ModifierArticle.html">Modifier article</a> </li><br><li><a href="ConsulterArticle.html">Consulter article</a></li><br> <br><li><a>CATALOGUE</a></li> <br><li><a href="CreerCatalogue.html">Consulter catalogue</a></li><br><li><a href="ModifierCatalogue.html">Modifier catalogue</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <h1>Modifier article</h1>
+        <div class="saisieAssiste">
+            <label for="Reference">Reference :</label>
+            <input type="text" role="combobox" aria-expanded="false" placeholder="Reference" value="#FL05B16598785" required>
+            
+        </div>
+        <br>
+        <form>
+            <div id="left">
+                <label for="fourni">Fournisseur:</label>
+                <select name="Catégorie" required>
+                    <option value="" selected="selected">BioNature</option>
+                    <option value="BioNature">BioNature</option>
+                </select><br><br>
+                <label for="categorie">Catégorie :</label>
+                <select name="Catégorie" required>
+                    <option value="" selected="selected">Fruits et Légumes</option>
+                    <option>Epicerie</option>
+                    <option>Boissons</option>
+                    <option>D.H.P</option>
+                    <option>Cremerie</option>
+                    <option>Boulangerie-Patisserie</option>
+                    <option>Fruits et Légumes</option>
+                    <option>Boucherie-charcuterie</option>
+                </select><br><br>
+                <label for="nom">Nom de l'article :</label>
+                <input type="text" id="nom" name="nom" value="Sachet Bananes" required><br>
+                <label for="Description">Description :</label>
+                <textarea name="Text1" cols="40" rows="5" value="">Variété Cavendish, production française. Sachet de Banane de Republique dominicaine de 600 grammes environ</textarea><br><br><br>
+                <button type="submit">Enregistrer</button>
+            </div>
+            <div id="right">
+                <label for="Marque">Marque :</label>
+                <input type="text" id="Marque" name="Marque" value="BANANA&CO"><br>
+                <label for="Prix">Prix :</label>
+                <input type="number" id="Prix" name="Prix" value="1.59" required><br><br><br>
+                <label for"photo">Ajouter une photo de l'article : </label><br><br>
+                <input type="file" name="photo" value="image/Bananes.jpg">
+            </div>
+        </form>    
+    </div>
+</body>
+</html>

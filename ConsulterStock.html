@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/ConsulterStock.css">
+    <title>Consulter les stocks</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="image/login.png" alt="login"></li><li><a href="EnregistrerVente.html">Vente</a></li><li><a href="CreerAchat.html">Achat</a></li><li><a href="MouvementDeStock.html">Entrepôt</a> </li><li><a href="CreerArticle.html">Produit</a></li><li><a href="CreerFournisseur.html">Fournisseur</a></li><li><a href="ConsulterPlanning.html#horlun">Personnel</a></li><li><a href="CreerClient.html">Client</a></li><li><a href="ConsulterVirements.html">Comptabilité</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="leftBarre">
+        <ul>
+            <li><a href="MouvementDeStock.html">Enregister mouvement de stock</a></li><br><li><a href="ConsulterStock.html">Consulter les stocks</a></li><br><li><a href="ReceptionnerCommande.html">Receptionner commande</a> </li>
+        </ul>
+    </div>
+    
+    <div id="content">
+        <h1>Consulter les stocks par critères</h1>
+        <label>Nom du produit (facultatif) : </label>
+        <div class="saisieAssiste">
+            <input type="text" role="combobox" value="Bananes" aria-expanded="false" placeholder="Nom du produit (facultatif)" required>
+        </div>
+        <br>
+        <select name="Trier par" required>
+            <option value="Trier par nom" >Trier par nom</option>
+            <option value="Trier par quantité" selected="selected">Trier par quantité</option>
+            <option value="Trier par prix">Trier par prix</option>
+        </select>
+        <button>Trier</button>
+        
+        
+        <div id=tableau>
+            <div class = "tabhead">
+                <p>Référence produit</p>
+                <p>Nom</p>
+                <p>Description</p>
+                <p>Quantité</p>
+                <p>Prix</p>
+            </div>
+            
+            <div class = "ligne">
+                <p>#FL05B16598785</p>
+                <p>Sachet Bananes BANANA&CO 600g</p>
+                <p>Variété Cavendish, production française... </p>
+                <p>990</p>
+                <p>1,59</p>
+            </div>         
+            <div class = "ligne">
+                <p>#FL05B16598786</p>
+                <p>Sachet Bananes BANANA&CO 300g</p>
+                <p>Variété Cavendish, production française... </p>
+                <p>0</p>
+                <p>0,80</p>
+            </div>       
+            <div class = "ligne">
+                <p>#FL05B16598787</p>
+                <p>Sachet Bananes BANANA&CO 100g</p>
+                <p>Variété Cavendish, production française... </p>
+                <p>0</p>
+                <p>0,30</p>
+            </div>        
+        </div>
+    </body>
+    </html>

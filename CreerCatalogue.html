@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/ModifierCatalogue.css">
+    <title>Creer catalogue</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="image/login.png" alt="login"></li><li><a href="EnregistrerVente.html">Vente</a></li><li><a href="CreerAchat.html">Achat</a></li><li><a href="MouvementDeStock.html">Entrepôt</a> </li><li><a href="CreerArticle.html">Produit</a></li><li><a href="CreerFournisseur.html">Fournisseur</a></li><li><a href="ConsulterPlanning.html#horlun">Personnel</a></li><li><a href="CreerClient.html">Client</a></li><li><a href="ConsulterVirements.html">Comptabilité</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="leftBarre">
+        <ul>
+            <li><a>ARTICLE</a></li><br><li><a href="CreerArticle.html">Créer article</a></li><br><li><a href="ModifierArticle.html">Modifier article</a> </li><br><li><a href="ConsulterArticle.html">Consulter article</a></li><br> <br><li><a>CATALOGUE</a></li> <br><li><a href="CreerCatalogue.html">Consulter catalogue</a></li><br><li><a href="ModifierCatalogue.html">Modifier catalogue</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        
+        <h1>Catalogue</h1>
+        
+        <div id="recherche">
+            <div id="search">
+                <div class="saisieAssiste">
+                    <label> Nom du fournisseur : </label>
+                    <input type="text" role="combobox" aria-expanded="false" value="BioNature" placeholder="" required>
+                    
+                </div>
+                <div class="saisieAssiste">
+                    <label> Nom du produit : </label>
+                    <input type="text" role="combobox" value="Bananes" aria-expanded="false" placeholder="" required>
+                   
+                </div>
+                <div id="reference">
+                    <label> Référence : </label>
+                    <input type="search" name="recherche">
+                </div>
+                <div id="categorie">
+                    <label> Catégorie : </label>
+                    <select name="Trie" required>
+                        <option value="" selected="selected">--Toutes les catégories--</option>
+                        <option>Epicerie</option>
+                        <option>Boissons</option>
+                        <option>D.H.P</option>
+                        <option>Cremerie</option>
+                        <option>Boulangerie-Patisserie</option>
+                        <option>Fruits et Légumes</option>
+                        <option>Boucherie-charcuterie</option>
+                    </select>
+                </div>
+                <div class="saisieAssiste" id="marque">
+                    <label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marque : </label>
+                    <input type="text" role="combobox" aria-expanded="false" placeholder="" required>
+                   
+                </div>
+            </div>
+            <hr>
+            <div id="produit">
+                <div class="exemple">
+                    <img id="banane" src="image/Bananes.jpg" alt="banane">
+                    <p id="nom">Sachet Bananes Republique Dominicaine 600g</p>  
+                    <button onclick="window.location.href = 'ConsulterArticle.html';">Afficher</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

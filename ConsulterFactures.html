@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/common.css">
+	<link rel="stylesheet" type="text/css" href="style/ConsulterFactures.css">
+	<title>Consulter Factures</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><img src="image/login.png" alt="login"></li><li><a href="EnregistrerVente.html">Vente</a></li><li><a href="CreerAchat.html">Achat</a></li><li><a href="MouvementDeStock.html">Entrepôt</a> </li><li><a href="CreerArticle.html">Produit</a></li><li><a href="CreerFournisseur.html">Fournisseur</a></li><li><a href="ConsulterPlanning.html#horlun">Personnel</a></li><li><a href="CreerClient.html">Client</a></li><li><a href="ConsulterVirements.html">Comptabilité</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="leftBarre">
+		<ul>
+			<li><a href="ConsulterVirements.html">Consulter Virements</a></li><br><li><a href="ConsulterFactures.html">Consulter Factures</a></li><br><li><a href="VirementAuto.html">Payer une Facture par Virement Automatique</a> </li>
+		</ul>
+	</div>
+	<div id="content">
+		<div>
+			<h1>Consulter Factures</h1>
+			<input type="text" role="combobox" aria-expanded="false" placeholder="N° de la commande à consulter" required>
+			<a href="ConsulterFournisseur.html"><button div="Consulter" type="button">Consulter fournisseur de la facture</button></a>
+			<a href="VirementAuto.html"><button div="Régler" type="button2">Régler cette facture</button></a>
+			<button div="Regler" type="button2">Imprimer cette facture</button>
+			<button div="Regler" type="button2">La consulter en pdf</button>
+
+		</div>
+		<table id="facture">
+			<caption></caption>
+			<tr>
+				<td>
+					<div class="leftfacture">
+						<p>Entreprise BIOCOOP</p>
+						<p>160, Chemin de Victor Hugo</p>
+						<p>87000 LIMOGES</p>
+					</div>
+					<div class="rightfacture">
+						<p>Société BIONATURE</p>
+						<p>185 Avenue Albert Thomas</p>
+						<p>87000 LIMOGES</p>
+					</div>
+					<div class="centerfacture">
+						<h2>Facture n°007 du 20/04/2020</h2>
+					</div>
+					<hr>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="leftfacture">
+						<p> Vente de produits finis</p>
+						<div class="rightfacture">
+							<p>42000</p>
+						</div>
+						<p>Remise 15%</p>
+						<div class="rightfacture">
+							<p>6300</p>
+						</div>
+						<hr>
+						<p>Net commercial</p>
+						<div class="rightfacture">
+							<p>35 700</p>
+						</div>
+						<p>TVA à 20%</p>
+						<div class="rightfacture">
+							<p>7 140</p>
+						</div>
+						<hr>
+						<p>Net à payer</p>
+						<div class="rightfacture">
+							<h2>42 840</h2>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<h1>ETAT: NON PAYEE</h1>
+	</form>
+</div>
+
+
+</body>
+</html>

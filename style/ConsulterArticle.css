@@ -1,0 +1,47 @@
+#content{
+    margin-left: 12%;
+    font-size: 0.9vw;
+}
+#search{
+    display: flex;
+    align-content: center;
+    padding: 1%;
+    margin-left:20vw;
+    font-size: 1.5vw;
+}
+#right{
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+img{
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 0%;
+}
+#nom{
+    font-weight: bold;
+    font-size: 2vw;
+}
+button{
+    font-size: 1vw;
+    padding: 0.3vw;
+    border-width:0.01vw ;
+}
+#button{
+    margin-top: 4vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 40%;
+    margin-left: 30%;
+}
+input{
+    font-size: 1.5vw;
+    padding: 0;
+    border-width: 0.01vw;
+  }
+#enregistrer{
+    float: center;
+
+}

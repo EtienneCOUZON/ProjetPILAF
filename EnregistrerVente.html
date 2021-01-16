@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/Achat.css">
+    <title>Vente</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="image/login.png" alt="login"></li><li><a href="EnregistrerVente.html">Vente</a></li><li><a href="CreerAchat.html">Achat</a></li><li><a href="MouvementDeStock.html">Entrepôt</a> </li><li><a href="CreerArticle.html">Produit</a></li><li><a href="CreerFournisseur.html">Fournisseur</a></li><li><a href="ConsulterPlanning.html#horlun">Personnel</a></li><li><a href="CreerClient.html">Client</a></li><li><a href="ConsulterVirements.html">Comptabilité</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="leftBarre">
+        <ul>
+            <li><a href="EnregistrerVente.html">Enregistrer une vente</a></li><br><li><a href="Statistiques.html">Statistiques</a></li>
+        </ul>
+    </div>
+    
+    <div id="content">
+        <form>
+            <h1>Enregistrer vente</h1>
+            <button class="scan">Scannez produit</button>
+            
+            <input type="text" role="combobox" aria-expanded="false" placeholder="N° de Client" value="F8P45EG2" required>
+            <button class="scan">Scannez carte fidélité</button>
+            <select name="Mode de Paiement" required>
+                <option value="">--Mode de Paiement--</option>
+                <option value="Mode de Paiement1" selected="selected">Carte bleue</option>
+                <option value="Mode de Paiement2">Cheque</option>
+                <option value="Mode de Paiement2">Espece</option>
+            </select>
+            <div id="paienr">
+                <button>Proceder au paiement</button>
+                <button>Enregistrer la vente</button>
+            </div>
+        </form>
+        
+        <div id=tableau>
+            <div class = "tabhead">
+                <p>Nom</p>
+                <p>Quantité</p>
+                <p>Prix</p>
+            </div>
+            
+            <div class = "ligne">
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" value="Paquet de pate Panzani 1Kg" required>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" value="2" placeholder="0">
+                <p class="prix">5</p>
+            </div>
+            <div class = "ligne">
+                
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">****,**</p>
+            </div>
+            <div class = "ligne">
+                
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">****,**</p>
+            </div>
+            <div class = "ligne">
+                
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">****,**</p>
+            </div>
+            <div class = "ligne">
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">****,**</p>
+            </div>
+            <div class = "ligne">
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">****,**</p>
+            </div>
+            <div class = "ligne">
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">****,**</p>
+            </div>
+            <div class = "ligne">
+                
+                <input type="text" role="combobox" aria-expanded="false" placeholder="Ajouter un produit" required>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0">
+                <p class="prix">****,**</p>
+            </div>
+            <div class="fdp">
+                <a href="#">Ajouter une ligne</a>
+                <p>TVA</p>
+                <p>1</p>
+            </div>
+            <div class="fdp">
+                <a></a>
+                <p>Total</p>
+                <p>6</p>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>

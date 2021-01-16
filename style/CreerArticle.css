@@ -1,0 +1,59 @@
+#content{
+    margin-left: 12%;
+    font-size: 1.5vw;
+}
+form{ 
+    font-size: 1.5vw;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#content form select{
+    margin:  0;
+    width: 50%;
+    font-size: 1.3vw;
+    height: 2.8vw;
+}
+form input{
+    display: flex;
+    align-content: center;
+    font-size: 1.5vw;
+    padding: 0;
+    border-width:0.01vw ;
+}
+form textarea{
+    display: flex;
+    align-content: center;
+    font-size: 1.5vw;
+    padding: 0;
+    border-width:0.01vw ;
+}
+.saisieAssiste{
+    display: grid;
+    grid-template-columns: 25% 45% 10%;
+    width: 40%;
+    font-size: 1.5vw;
+}
+.saisieAssiste input{
+    width: 100%;
+    font-size: 1.5vw;
+    padding: 0;
+    border-width: 0.01vw;
+}
+.saisieAssiste button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.saisieAssiste img{
+    width: 1vw;
+}
+button{
+    font-size: 1.3vw;
+    padding: 0.3vw;
+    border-width:0.01vw ;
+}
+
+

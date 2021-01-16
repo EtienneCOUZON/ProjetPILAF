@@ -1,0 +1,125 @@
+#leftBarre li{
+    margin-top: 1vw;
+}
+body #content{
+    margin-left: 12%;
+    width: 80%;
+    font-size: 1.5vw;
+}
+#content input{
+    border-width:0.01vw;
+    padding: 0;
+    font-size: 1.5vw;
+}
+
+a{
+    color: #0000EE;
+}
+a:focus{
+    outline: 0;
+    outline: none;
+}
+#content ul{
+    font-size: 1.2vw;
+    width: 30%;
+    grid-template-columns: 50% 50%;
+    margin: 0 ;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+
+}
+#content li{
+    border: 0.1vw solid black;
+}
+#content a{
+    text-decoration: none;
+    color: black;
+}
+#contenu, #content ul{
+    margin: 0px;
+}
+#creer{
+    border: 0.1vw solid black;
+    width: 100%;
+    display: none;
+    height: 30vw;
+    margin: 0;
+}
+#creer,#modif{
+    display: none;
+}
+#creer:target, #modif:target{
+    display: block;
+}
+#contenu, #content ul{
+    margin: 0;
+}
+#contentcreer, #contentmodif{
+    margin: 1.5vw;
+}
+#datenai{
+    display: inline;
+}
+
+.nompre{
+    margin-right: 3vw;
+    display: inline;
+}
+.cont{
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+#job{
+    margin-top: 2vw;
+    width: 20vw;
+    margin-right: 2vw;
+    display: inline;
+}
+#tel{
+    display: inline;
+}
+#avat, #contentcreer img, #contentmodif img{
+    width: 8%;
+    display: flex;
+    float: right;
+}
+#contentcreer img{
+    margin-right: 10%;
+}
+.saisieAssiste{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    width: 20%;
+    margin-bottom: 2vw;
+}
+.saisieAssiste button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.saisieAssiste img{
+    width: 1vw;
+}
+#modif{
+    border: 0.1vw solid black;
+    width: 100%;
+    display: none;
+    height: 30vw;
+    margin: 0;
+}
+#avatar{
+    display: block;
+    margin-bottom: 2vw;
+}
+.valmod{
+    text-align: center;
+}
+h1{
+    margin-bottom: 2.5vw;
+}

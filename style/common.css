@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+header nav li img{
+    width: 3.5vw;
+}
+h1{
+    font-size: 2vw;
+}
+header nav ul{
+    font-size: 1.2vw;
+    background-color: lightgreen;
+    width: 100%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    margin: 0 ;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    height: 5vw;
+    list-style: none;
+}
+
+#leftBarre{
+    font-size: 1.2vw;
+    background-color: lightgreen;
+    width: 10%;
+    position: fixed;
+    height: 100%;
+}
+
+
+#leftBarre ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    padding-left: 1vw;
+    justify-content: space-around;
+}
+
+#content{
+    margin-left: 10%;
+    width: 80%;
+}
+
+a{
+    color: #0000EE;
+}
+a:focus{
+    outline: 0;
+    outline: none;
+}
+button{
+    cursor: pointer;
+    padding: 0.3vw;
+    border-width:0.01vw ;
+}
+
+

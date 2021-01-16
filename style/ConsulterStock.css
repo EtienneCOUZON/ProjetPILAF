@@ -1,0 +1,95 @@
+html{
+   scroll-behavior: smooth; 
+   font-size: 1.5vw;
+}
+body #content{
+    margin-left: 12%;
+    width: 85%;
+}
+
+.saisieAssiste{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    width: 25%;
+}
+input{
+    font-size: 1.5vw;
+    -moz-appearance: none;
+    border-width: 0.01vw;
+    text-indent: 0.5vw;
+    padding: 0;
+}
+.saisieAssiste button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.saisieAssiste img{
+    width: 1vw;
+}
+
+#tableau{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;    
+    border: 0px;
+    border-top: 0.01vw solid black;
+    margin-top: 2vw;
+    font-size: 1.2vw;
+}
+#tableau .ligne, #tableau .tabhead{
+    display: grid;
+    grid-template-columns:25% 25% 30% 10% 10%;
+    border-bottom: 0.01vw solid black;
+    border-left: 0.01vw solid black;
+    height: 100%;
+}
+#tableau .ligne .div{
+    height: 100%;
+    width: 100%;
+
+}
+#tableau p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.01vw solid black;
+    height: 100%;
+    width: 100%;
+}
+#tableau .saisieQuantité{
+    text-align: center;
+}
+#tableau .tabhead{
+    font-weight: bold;
+}
+
+#tableau .saisieAssiste{
+    width: 100%;
+}
+select{
+    font-size: 1.5vw;
+    padding: 0.3vw;
+}
+
+.plus{
+    width: 80%;
+    align-self: center;
+}
+
+#tableau p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+button{
+    font-size: 1.3vw;
+    border-width: 0.01vw;
+    padding: 0.3vw;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+select{
+    -moz-appearance: none;
+}

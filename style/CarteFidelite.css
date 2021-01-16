@@ -1,0 +1,27 @@
+#content{
+    margin-left: 12%;
+    font-size: 1vw;
+}
+#carteRecto{
+  margin-left: 30%;
+  margin-top: 10%;
+  width: 40%;
+  padding-left: 1vw;
+  padding-top: 5vw;
+  border: 0.05vw solid;
+  border-radius: 1vw;
+  background: linear-gradient(to right, white 40%, lightgreen 60%);
+
+}
+#codeBarre{
+  width: 50%;
+  background-color:   #1a1a1a;
+  margin-top: 1vw;
+  margin-bottom:0.5vw;
+  margin-left: 7.5vw;
+}
+button{
+    font-size: 1.3vw;
+    margin-top: 5%;
+    margin-left: 48%;
+  }

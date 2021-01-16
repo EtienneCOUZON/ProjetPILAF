@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/Achat.css">
+    <title>Receptionner commande</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="image/login.png" alt="login"></li><li><a href="EnregistrerVente.html">Vente</a></li><li><a href="CreerAchat.html">Achat</a></li><li><a href="MouvementDeStock.html">Entrepôt</a> </li><li><a href="CreerArticle.html">Produit</a></li><li><a href="CreerFournisseur.html">Fournisseur</a></li><li><a href="ConsulterPlanning.html#horlun">Personnel</a></li><li><a href="CreerClient.html">Client</a></li><li><a href="ConsulterVirements.html">Comptabilité</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="leftBarre">
+        <ul>
+            <li><a href="MouvementDeStock.html">Enregister mouvement de stock</a></li><br><li><a href="ConsulterStock.html">Consulter les stocks</a></li><br><li><a href="ReceptionnerCommande.html">Receptionner commande</a> </li>
+        </ul>
+    </div>
+    
+    <div id="content">
+        <form>
+            <h1>Receptionner commande</h1>
+            <label>N° de la commande : </label>
+            <input type="text" role="combobox" aria-expanded="false" value="ZXC847" placeholder="N° de la commande à consulter" required>
+            <label>Fourniseur : </label>
+            <input type="text" role="combobox" value="BioNature" disabled="disabled" placeholder="Fourniseur" required>
+            
+            <button type="submit">Valider réception</button>
+        </form>
+        
+        <div id=tableau>
+            <div class = "tabhead">
+                <p>Nom</p>
+                <p>Reçue</p>
+                <p>Quantité</p>
+            </div>
+            <div class = "ligne">
+                <p class = "designProduit">Sachet Bananes BANANA&CO 600g</p>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0" placeholder="0" value="1000">
+                <p class="Quantité">1000</p>
+            </div>
+            <div class = "ligne">
+                <p class = "designProduit"></p>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0">
+                <p class="Quantité"></p>
+            </div>
+            <div class = "ligne">
+                <p class = "designProduit"></p>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0">
+                <p class="Quantité"></p>
+            </div>
+            <div class = "ligne">
+                <p class = "designProduit"></p>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0">
+                <p class="Quantité"></p>
+            </div>
+            <div class = "ligne">
+                <p class = "designProduit"></p>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0">
+                <p class="Quantité"></p>
+            </div>
+            <div class = "ligne">
+                <p class = "designProduit"></p>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0">
+                <p class="Quantité"></p>
+            </div>
+            <div class = "ligne">
+                <p class = "designProduit"></p>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0">
+                <p class="Quantité"></p>
+            </div>
+            <div class = "ligne">
+                <p class = "designProduit"></p>
+                <input class="saisieQuantité" type="number" name="Quantité" min="0">
+                <p class="Quantité"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

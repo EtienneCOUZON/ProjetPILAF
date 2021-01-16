@@ -1,0 +1,37 @@
+#tabvirements{
+	margin-left:25vw;
+}
+h2{
+	font-size: 1.2vw;
+}
+#content{
+	font-size: 0.8vw;
+}
+table, th, td {
+  border: 0.01vw solid black;
+  border-collapse: collapse;
+}
+table{
+	width: 50vw;
+}
+th,td{
+	text-align: center;
+}
+#content{
+	margin-left: 12%;
+}
+select{
+	font-size: 1.2vw;
+	text-align: center;
+}
+form{
+	width:100%;
+}
+button{
+	font-size: 1.5vw;
+	padding: 0.3vw;
+	border-width:0.01vw ;
+}
+a{
+	margin-left:0;
+}
